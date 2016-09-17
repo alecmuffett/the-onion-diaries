@@ -9,7 +9,7 @@ Let's build an Onion site which serves proxied-and-rewritten content for a singl
 
 In other words: you will go to an onion site that you create, which will fetch HTML from the BBC site and rewrite the HTML as-if it had come from your Onion site. 
 
-Doing this will help you understand one way to set up an Onion site to be one-to-one equivalent to a cleartext site.
+Doing this will help you understand one way to set up an Onion site to be one-to-one equivalent to a normal HTTP site.
 
 The BBC is (currently) suitable for exemplar experimentation because it does not use HTTPS to protect its content, plus it's unlikely to complain from a corporate standpoint, plus it has no concept of logged-in users to be interfered with.
 
