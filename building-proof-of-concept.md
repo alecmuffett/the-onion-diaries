@@ -16,7 +16,8 @@ Once we are happy with this process, the next document will build upon this docu
   * I use VirtualBox on a laptop for convenience
   * A virtual host or AWS instance would also be okay
 * Outbound network access
-* Maybe a couple of hours of free time
+* Maybe an hour of free time
+  * I did a 25 minute speed-run from bare VirtualBox instance to functioning proxy; you can probably do better.
 * Coffee
 
 ## Notes
