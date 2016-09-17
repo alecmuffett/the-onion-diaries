@@ -5,7 +5,7 @@
 
 ## Goal
 
-Let's build an Onion site which serves proxied-and-rewritten content for a single port (port 80) of the BBC website.
+Let's build an Onion site which serves proxied-and-rewritten content for a single port (port 80) of the primary BBC website.
 
 In other words: you will go to an onion site that you create, which will fetch HTML from the BBC site and rewrite the HTML as-if it had come from your Onion site. 
 
@@ -13,7 +13,7 @@ Doing this will help you understand one way to set up an Onion site to be one-to
 
 The BBC is (currently) suitable for exemplar experimentation because it does not use HTTPS to protect its content, plus it's unlikely to complain from a corporate standpoint, plus it has no concept of logged-in users to be interfered with.
 
-Once we are happy with this process, a future document will build upon this document and will describe how to perform the same trick for multi-tcp-port and multi-domain (eg: CDN-enabled) websites, including (some amount of) SSL experimentation.
+Once we are happy with this process, a future document will build upon this document and will describe how to perform the same trick for multi-tcp-port and multi-domain (eg: CDN-enabled or subdomained) websites, including (some amount of) SSL experimentation.
 
 ## You Will Need
 
