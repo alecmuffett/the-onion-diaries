@@ -1,6 +1,8 @@
 # Building a "Proof of Concept" Onion Site
 ## …by using a rewrite-proxy for a normal, cleartext web site
 
+(c) 2016 Alec Muffett - licensed under CC-BY-SA-4.0
+
 ## Goal
 
 Let's build an Onion site which serves proxied-and-rewritten content for a single port (port 80) of the BBC website.
