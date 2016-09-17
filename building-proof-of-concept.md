@@ -19,6 +19,7 @@ Once we are happy with this process, the next document will build upon this docu
 
 * Basic Linux sysadmin skills
 * A fresh Ubuntu Server 16.04.1 instance, or similar
+  * http://www.ubuntu.com/download/server
   * I use VirtualBox on a laptop for convenience
   * A virtual host or AWS instance would also be okay
 * Outbound network access
