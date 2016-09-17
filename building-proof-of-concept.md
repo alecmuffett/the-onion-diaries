@@ -116,7 +116,9 @@ cat hostname
 
 #### Enable `mitmproxy`
 
-Create a shell script, call it `run-proxy.sh`, making the necessary edits as documented in the file:
+Create a shell script, call it `run-proxy.sh`, making the necessary edits as documented in the file.
+
+When you have created and tweaked the file, do `chmod u+x run-proxy.sh` and run it.
 
 ```sh
 #!/bin/sh
@@ -169,13 +171,6 @@ exec mitmproxy \
     --replace ":~bs . ~t \"text/html\":${SITE_RE}:${ONION}" \
     --replace ":~s:${SITE_RE}:${ONION}"
 ```
-
-Do the following, and follow the instructions
-```sh
-chmod u+x run-proxy.sh
-./run-proxy.sh
-```
-
 
 ### Connect to the Onion Site
 
