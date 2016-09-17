@@ -21,7 +21,7 @@ Once we are happy with this process, the next document can build upon this and d
 
 ## Notes
 
-### Networking
+#### Networking
 
 Don't fret about firewalls or lack of inbound internet access; one of the joys of Onion sites is that they only need or use *outbound* network access.
 
@@ -29,7 +29,7 @@ Tor onions work because any hypothetically "inbound" traffic is received by comi
 
 This also has the nice side effect that you can lock your onions in a DMZ "enclave", restricted to permit outbound internet access only, and limiting any other connectivity.
 
-### Production
+#### Production
 
 I recommend not using this process for anything other that Proof of Concept of your own website.
 
@@ -37,17 +37,17 @@ Certainly I consider the *rewrite HTML on the fly* approach which we a re descri
 
 However, this is a nice, simple taster of *how easy it is to onionify a site*.
 
-## Steps
+## Installation Steps
 
 This is probably not as optimal as it could be, but it is tested and works.
 
-### Build your System
+#### Build your System
 
 Install Ubuntu with "standard system utilities" and apply all patches; we will do everything else manually.
 
 You might want to install sshd (eg: package `openssh-server`) so that you have terminal cut-and-paste; I shall leave that undocumented, but please maintain security appropriately.
 
-### Build `mitmproxy`
+#### Build `mitmproxy`
 
 There is a version of mitmproxy available in the Ubuntu APT repositories, but it is old, out of date, and wrong with respect to the documentation that you will find on the web.
 
@@ -69,7 +69,7 @@ mitmproxy --version
 
 This should give you `mitmproxy 0.17` if everything works okay.
 
-### Install Tor
+#### Install Tor
 
 This is all nicely documented at https://www.torproject.org/docs/debian.html.en
 
@@ -81,7 +81,7 @@ Select:
 
 ...in the menu options, and follow the instructions which are provided. It should basically involve editing 1 file to add some APT configuration, plus executing 4 commands.
 
-### Configure an Onion Site
+#### Configure an Onion Site
 
 Edit `/etc/tor/torrc` to include the following in the location-hidden services section.
 
@@ -90,7 +90,7 @@ HiddenServiceDir /var/lib/tor/bbc-onion/
 HiddenServicePort 80  localhost:20080
 ```
 
-### Restart Tor
+#### Restart Tor
 
 Do:
 
@@ -98,7 +98,7 @@ Do:
 /etc/init.d/tor restart
 ```
 
-### Collect your Onion Site name
+#### Collect your Onion Site name
 
 Do:
 
@@ -109,7 +109,7 @@ cat hostname
 
 ...and remember the result; it will look a bit like `abcdefghijklmnop.onion` - we shall use that as the example, but make sure to use your own one when you try this.
 
-### Enable `mitmproxy`
+#### Enable `mitmproxy`
 
 Create a shell script, call it `run-proxy.sh`:
 
@@ -161,6 +161,13 @@ exec mitmproxy \
     --replace ":~bs . ~t \"text/html\":${SITE_RE}:${ONION}" \
     --replace ":~s:${SITE_RE}:${ONION}"
 ```
+
+Do the following, and follow the instructions
+```sh
+chmod u+x run-proxy.sh
+./run-proxy.sh
+```
+
 
 ### Connect to the Onion Site
 
