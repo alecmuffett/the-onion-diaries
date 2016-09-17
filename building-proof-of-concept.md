@@ -1,5 +1,5 @@
 # Building a "Proof of Concept" Onion Site
-## By using a rewrite-proxy for a normal, cleartext web site
+## …by using a rewrite-proxy for a normal, cleartext web site
 
 ## Goal
 
