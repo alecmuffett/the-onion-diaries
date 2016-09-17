@@ -54,7 +54,7 @@ So we shall build it manually.  The commands I am typing are as follows:
 ```sh
 sudo -i # become root
 
-apt-get install aptitude # if you can do without this, you're a hero
+apt-get install aptitude # maybe we don't need this, but i like it
 
 aptitude install libffi-dev libjpeg-dev libssl-dev libxml2-dev libxslt1-dev libyaml-dev python-dev python-pip zlib1g-dev
 
