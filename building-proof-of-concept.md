@@ -71,13 +71,17 @@ This should give you `mitmproxy 0.17` if everything works okay.
 
 This is all nicely documented at https://www.torproject.org/docs/debian.html.en
 
-Select:
+Assuming you are on Ubuntu Server 16.04.1, select:
 
 * *Ubuntu Xenial Xerus*
 * *Tor*
 * *Stable*
 
-...in the menu options, and follow the instructions which are provided. It should basically involve editing 1 file to add some APT configuration, plus executing 4 commands.
+...in the menu options, and follow the instructions which are provided. 
+
+If you are on a different platform, make appropriate adjustments.
+
+It should basically involve editing 1 file to add some APT configuration, plus executing 4 commands.
 
 #### Configure an Onion Site
 
