@@ -9,7 +9,7 @@ Let's build an Onion site which serves proxied-and-rewritten content for a singl
 
 The BBC is (currently) suitable for exemplar experimentation because it does not use HTTPS to protect its content, plus it's unlikely to complain from a corporate standpoint, plus it has no concept of logged-in users to be interfered with.
 
-Once we are happy with this process, the next document will build upon this document and will describe how to perform the same for multi-tcp-port and multi-domain (eg: CDN-enabled) websites.
+Once we are happy with this process, the next document will build upon this document and will describe how to perform the same trick for multi-tcp-port and multi-domain (eg: CDN-enabled) websites, including (some amount of) SSL experimentation.
 
 ## You Will Need
 
