@@ -90,6 +90,8 @@ HiddenServiceDir /var/lib/tor/bbc-onion/
 HiddenServicePort 80  localhost:20080
 ```
 
+...and save the file.
+
 #### Restart Tor
 
 Do:
