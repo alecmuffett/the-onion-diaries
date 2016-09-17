@@ -178,6 +178,16 @@ exec mitmproxy \
     --replace ":~s:${SITE_RE}:${ONION}"
 ```
 
+#### What does this do?
+
+* the `~hq` directive edits the *H*eaders in the re*Q*uest 
+* the `~hs` directive edits the *H*eaders in the re*S*ponse
+* * ...the `~t` directive limits this rewriting to responses of certain content *T*ype (eg: `text/html`)
+* the `~bs` directive edits the *B*ody of the re*S*ponse
+* the `~s` directive edits the whole of the re*S*ponse
+
+The editing transforms ("rewrites") the outgoing request, or the returned data, to refer to the site or onion as appropriate.
+
 ### Connect to the Onion Site
 
 Open TorBrowser and connect to `http://www.abcdefghijklmnop.onion` (amend this for your own onion site)
