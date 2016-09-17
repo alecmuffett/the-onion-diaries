@@ -5,9 +5,9 @@
 
 Let's build an Onion site which serves proxied-and-rewritten content for a single port (port 80) of the BBC website.
 
-The BBC is (currently) suitable for exemplar experimentation because it does not use HTTPS to protect its content, plus it's unlike to complain from a corporate standpoint and has no concept of logged-in users to be interfered with.
+The BBC is (currently) suitable for exemplar experimentation because it does not use HTTPS to protect its content, plus it's unlikely to complain from a corporate standpoint, plus it has no concept of logged-in users to be interfered with.
 
-Once we are happy with this process, the next document can build upon this and describe how to do the same for a multi-tcp-port and multi-domain (eg: CDN-enabled) website.
+Once we are happy with this process, the next document will build upon this document and will describe how to perform the same for multi-tcp-port and multi-domain (eg: CDN-enabled) websites.
 
 ## You Will Need
 
