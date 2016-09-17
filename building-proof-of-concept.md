@@ -1,5 +1,5 @@
 # Building a "Proof of Concept" Onion Site
-## …by using a rewrite-proxy for a normal, cleartext web site
+## …by using a rewriter-proxy for a normal, cleartext web site
 
 (c) 2016 Alec Muffett - licensed under CC-BY-SA-4.0
 
@@ -182,7 +182,7 @@ exec mitmproxy \
 
 * the `~hq` directive edits the *H*eaders in the re*Q*uest 
 * the `~hs` directive edits the *H*eaders in the re*S*ponse
-* * ...the `~t` directive limits this rewriting to responses of certain content *T*ype (eg: `text/html`)
+  * ...the `~t` directive limits this rewriting to responses of certain content *T*ype (eg: `text/html`)
 * the `~bs` directive edits the *B*ody of the re*S*ponse
 * the `~s` directive edits the whole of the re*S*ponse
 
