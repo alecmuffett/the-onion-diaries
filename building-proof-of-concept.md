@@ -179,3 +179,13 @@ exec mitmproxy \
 Open TorBrowser and connect to `http://www.abcdefghijklmnop.onion` (amend this for your own onion site)
 
 You should see a (slightly flaky) version of the BBC website.
+
+## FAQ
+
+#### *Are you going to provide a Docker container (etc) to do this?*
+
+No. This is - as I write repeatedly above - a shit way to run a production site.  This document is written for people to play with and learn/understand how to plumb a Tor Onion Site into an arbitrary web service.
+
+#### *What about SSL / HTTPS / My CDN?*
+
+Keep an eye out for the next document.  This should be part of a series. 
