@@ -43,9 +43,7 @@ This is probably not as optimal as it could be, but it is tested and works.
 
 #### Build your System
 
-Install Ubuntu with "standard system utilities" and apply all patches; we will do everything else manually.
-
-You might want to install sshd (eg: package `openssh-server`) so that you have terminal cut-and-paste; I shall leave that undocumented, but please maintain security appropriately.
+Install Ubuntu with "standard system utilities" and apply all patches; we will do everything else manually. You might want to install sshd (eg: package `openssh-server`) so that you have terminal cut-and-paste; I shall leave that undocumented, but please maintain security appropriately.
 
 #### Build `mitmproxy`
 
@@ -75,9 +73,9 @@ This is all nicely documented at https://www.torproject.org/docs/debian.html.en
 
 Select:
 
-* Ubuntu Xenial Xerus
-* Tor
-* Stable
+* *Ubuntu Xenial Xerus*
+* *Tor*
+* *Stable*
 
 ...in the menu options, and follow the instructions which are provided. It should basically involve editing 1 file to add some APT configuration, plus executing 4 commands.
 
@@ -124,6 +122,8 @@ ONION=abcdefghijklmnop.onion
 # IMPORTANT (2/2): uncomment one of these two lines
 #SITE=bbc.com   # uncommment this if you live outside the UK
 #SITE=bbc.co.uk # uncomment this if you live inside the UK
+
+# ---- no configuration needed below this line ----
 
 # check
 if [ "x$SITE" = x -o "x$ONION" = xabcdefghijklmnop.onion ] ; then
