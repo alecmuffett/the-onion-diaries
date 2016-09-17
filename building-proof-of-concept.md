@@ -117,6 +117,7 @@ Create a shell script, call it `run-proxy.sh`, making the necessary edits as doc
 #!/bin/sh
 
 # IMPORTANT (1/2): Edit this to match your onion site
+# compare with contents of /var/lib/tor/bbc-onion/hostname
 ONION=abcdefghijklmnop.onion
 
 # IMPORTANT (2/2): uncomment one of these two lines
