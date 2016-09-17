@@ -111,7 +111,7 @@ cat hostname
 
 #### Enable `mitmproxy`
 
-Create a shell script, call it `run-proxy.sh`:
+Create a shell script, call it `run-proxy.sh`, making the necessary edits as documented in the file:
 
 ```sh
 #!/bin/sh
