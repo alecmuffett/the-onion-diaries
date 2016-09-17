@@ -1,6 +1,5 @@
-# Building a simple "Proof of Concept" onion site for a normal, cleartext web site
-
-# WORK IN PROGRESS DO NOT USE YET
+# Building a "Proof of Concept" Onion Site
+## By using a rewrite-proxy for a normal, cleartext web site
 
 ## Goal
 
@@ -8,7 +7,7 @@ Let's build an Onion site which serves proxied-and-rewritten content for a singl
 
 The BBC is (currently) suitable for exemplar experimentation because it does not use HTTPS to protect its content, plus it's unlike to complain from a corporate standpoint and has no concept of logged-in users to be interfered with.
 
-Once we're happy with this process, the next document will build upon this and describe how to do the same for a multi-port and multi-domain (eg: CDN-enabled) website.
+Once we are happy with this process, the next document can build upon this and describe how to do the same for a multi-tcp-port and multi-domain (eg: CDN-enabled) website.
 
 ## You Will Need
 
@@ -24,7 +23,7 @@ Once we're happy with this process, the next document will build upon this and d
 
 ### Networking
 
-Don't fret about firewalls or lack of inbound internet access; one of the joys of Onion sites is that they only use *outbound* network access.
+Don't fret about firewalls or lack of inbound internet access; one of the joys of Onion sites is that they only need or use *outbound* network access.
 
 Tor onions work because any hypothetically "inbound" traffic is received by coming backwards up a connection which was originally established *outbound*.
 
@@ -167,3 +166,4 @@ exec mitmproxy \
 
 Open TorBrowser and connect to `http://www.abcdefghijklmnop.onion` (amend this for your own onion site)
 
+You should see a (slightly flaky) version of the BBC website.
