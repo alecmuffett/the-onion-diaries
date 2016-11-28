@@ -39,7 +39,7 @@
 #### Regarding Cut-and-Paste:
 
 * This document has a lot of typing and sugested cut-and-paste
-* If your Linux solution does not enable you to paste text into a root shell, you might like to enable `sshd` temporarily (or permanently) when the machine is first installed with Ubuntu, and then log in *again* using `ssh` so that you can paste into the `ssh` terminal window.  That's your call, and it's beyond the scope of this document to describe how to do it on your local system.
+* If your Linux solution does not enable you to paste text into a root shell, you might like to enable `sshd` temporarily (or permanently?) when the machine is first installed with Ubuntu, and then log in *again* using `ssh` so that you can paste command text into the `ssh` terminal window.  That's your call, and it's beyond the scope of this document to describe how to do it on your local system.
 
 ## Install Ubuntu Server
 
