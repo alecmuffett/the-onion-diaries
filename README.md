@@ -10,6 +10,8 @@ Blog-type Notes about building Onion sites
 
 ### TODO
 
+* Notes on converting a CMS to support both Onion **and** Clearnet traffic simultaneously
+* Notes on scaling Onion Sites to high bandwidth
 * Configuring Remote SSH Access for a Basic Production Onion Server
 * Configuring Apache for a Basic Production Onion Server
 * ... more?
