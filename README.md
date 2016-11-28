@@ -6,7 +6,7 @@ Blog-type Notes about building Onion sites
 ### DONE
 
 * Building a "Proof of Concept" Onion Site (using a rewriter)
-* Building A Basic "Production" Ubuntu Server for Onion Sites
+* Building a Basic "Production" Ubuntu Server for Onion Sites
 
 ### TODO
 
