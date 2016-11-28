@@ -75,6 +75,8 @@ aptitude update
 aptitude upgrade
 ```
 
+If you're going to enable `ssh` for remote access from your local network, this is probably the right time to do it.
+
 ## Installing Tor
 
 In a browser elsewhere, retreive the instructions for installing Tor from https://www.torproject.org/docs/debian.html.en
