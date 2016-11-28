@@ -1,9 +1,18 @@
 # The Onion Diaries
 Blog-type Notes about building Onion sites
 
-## Intention
+## Documents
 
-I suppose that I'll put a chapter index here, and then link from here wiki-style?
+### DONE
+
+* Building a "Proof of Concept" Onion Site (using a rewriter)
+* Building A Basic "Production" Ubuntu Server for Onion Sites
+
+### TODO
+
+* Configuring Remote SSH Access for a Basic Production Onion Server
+* Configuring Apache for a Basic Production Onion Server
+* ... more?
 
 ## License
  
