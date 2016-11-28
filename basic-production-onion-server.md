@@ -44,7 +44,9 @@ Download Ubuntu Server 16.04.1
 * 32-bit version: available via Bittorrent "alternative downloads"
   * http://www.ubuntu.com/download/alternative-downloads
 
-Follow the instructions to install Ubuntu Server. Notes:
+Follow the instructions to install Ubuntu Server. 
+
+### Notes
 
 * configure network interfaces carefully
 * set the hostname to be `invalid` (*verbatim*)
@@ -420,7 +422,7 @@ perl -pi~ -e 's/^HiddenServicePort/#HiddenServicePort/' /etc/tor/torrc
 
 ## Reboot to apply all changes and new executables
 
-Do:
+do:
 
 ```sh
 # BEGIN PASTE
