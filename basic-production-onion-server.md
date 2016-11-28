@@ -1,4 +1,4 @@
-# A Basic "Production" Ubuntu Server for Onion Sites
+# Building a Basic "Production" Onion Server on Ubuntu
 
 (c) 2016 Alec Muffett - licensed under CC-BY-SA-4.0
 
