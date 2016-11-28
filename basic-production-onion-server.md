@@ -36,6 +36,11 @@
 * code that can be pasted is between `# BEGIN PASTE` and `# END PASTE`
   * if you are (rightly) worried about pasting from a web browser, git-clone the document and use that.
 
+#### Regarding Cut-and-Paste:
+
+* This document has a lot of typing and sugested cut-and-paste
+* If your Linux solution does not enable you to paste text into a root shell, you might like to enable `sshd` temporarily (or permanently) when the machine is first installed with Ubuntu, and then log in *again* using `ssh` so that you can paste into the `ssh` terminal window.  That's your call, and it's beyond the scope of this document to describe how to do it on your local system.
+
 ## Install Ubuntu Server
 
 Download Ubuntu Server 16.04.1
