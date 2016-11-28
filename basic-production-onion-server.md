@@ -1,5 +1,7 @@
 # A Basic "Production" Ubuntu Server for Onion Sites
 
+(c) 2016 Alec Muffett - licensed under CC-BY-SA-4.0
+
 #### Goals:
 * create a fully up-to-date Ubuntu instance
 * with automatic security patches (network access permitting)
