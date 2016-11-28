@@ -1,5 +1,4 @@
 # Building a Basic "Production" Onion Server on Ubuntu
-## BPOS-Ubuntu
 
 (c) 2016 Alec Muffett - licensed under CC-BY-SA-4.0
 
