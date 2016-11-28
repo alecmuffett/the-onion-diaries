@@ -103,7 +103,7 @@ perl -pi~ -e 's/invalid/invalid invalid.invalid/' /etc/hosts
 # END PASTE
 ```
 
-The first couple of lines should probably now look like this:
+The first couple of lines of `/etc/hosts` should probably now look like this:
 
 ```
 127.0.0.1       localhost
