@@ -8,12 +8,14 @@ Blog-type Notes about building Onion sites
 * Building a "Proof of Concept" Onion Site (using a rewriter)
 * Building a Basic "Production" Ubuntu Server for Onion Sites
 
-### TODO
+### TODO (input / suggestions welcome)
 
-* Notes on converting a CMS to support both Onion **and** Clearnet traffic simultaneously
 * Notes on scaling Onion Sites to high bandwidth
-* Configuring Remote SSH Access for a Basic Production Onion Server
-* Configuring Apache for a Basic Production Onion Server
+* Notes on converting a CMS to support both Onion **and** Clearnet traffic *simultaneously*
+* Configuring a Basic Production Onion Server for SSH Remote Access
+* Configuring a Basic Production Onion Server for Apache
+* Configuring a Basic Production Onion Server for DNS-over-Tor
+* Configuring a Basic Production Onion Server for Redirecting-TCP-over-Tor
 * ... more?
 
 ## License
