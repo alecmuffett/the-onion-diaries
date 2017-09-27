@@ -579,4 +579,4 @@ $ mknetmask 169.254.255.241/30
 169.254.255.243 net-169-254-255-240-slash-30-broadcast
 ```
 
-Aside for fellow network programmers: yes I could screw this down even tighter and use a "/31" but
+Aside for fellow network programmers: yes I could screw this down even tighter and use a "/31" but why mess around with contentious netmasks that are meant for point-to-point links?
